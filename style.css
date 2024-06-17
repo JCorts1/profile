@@ -1,0 +1,62 @@
+body {
+  background: rgb(128,53,97);
+background: radial-gradient(circle, rgba(128,53,97,1) 0%, rgba(75,122,144,0.9192051820728291) 100%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  flex-direction: column;
+  background: rgb(98,98,98);
+  background: radial-gradient(circle, rgba(98,98,98,0.258140756302521) 0%, rgba(224,224,224,0.24413515406162467) 100%);
+  box-shadow: 6px 6px 2px #00000060;
+}
+
+.intro > img {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 3px #00000060;
+}
+
+h1, h2, h3 {
+  font-family: "Playwrite NZ", cursive;
+  color: white;
+  background-color: transparent;
+  text-shadow: 2px 2px 1px #4B6F85;
+}
+
+p {
+  font-family: "Playwrite IS", cursive;
+  color: white;
+}
+
+a {
+  font-family: "Playwrite IS", cursive;
+  text-decoration: none;
+  color: #62385E;
+}
+
+a:hover {
+  transition: 1.5s ease;
+  font-size: 30px;
+  color: #4A7188;
+  text-shadow: 2px 2px 25px #fff;
+}
+
+@media (max-width: 540px) {
+
+  body {
+    margin-top: 15%;
+    width: 100%;
+  }
+}
